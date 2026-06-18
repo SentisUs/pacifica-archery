@@ -1,0 +1,14 @@
+# OS cruft
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Editor / tooling
+*.log
+.vscode/
+.idea/
+
+# Local QA screenshots
+website/_preview_*.png
+**/_preview_*.png
