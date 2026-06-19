@@ -12,3 +12,8 @@ Desktop.ini
 # Local QA screenshots
 website/_preview_*.png
 **/_preview_*.png
+
+# Firebase deploy cache / logs
+.firebase/
+firebase-debug.log
+firebase-debug.*.log
