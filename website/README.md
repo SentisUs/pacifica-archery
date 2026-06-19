@@ -23,7 +23,7 @@ Then open **http://localhost:8000**.
 | File | Page |
 |---|---|
 | `index.html` | Home — hero, inclusivity, how-it-works, dynamic pricing preview, location teaser, reviews, share, CTAs |
-| `pricing.html` | Rates & Bundles — front options + one unified, column-aligned rate sheet (Happy Hour / Weekday / Weekend / What's included) banded by category: Range & Gear, Training, Bundles, Private Events |
+| `pricing.html` | Rates & Bundles — front options + one unified, column-aligned rate sheet (Hunter Hours / Weekday / Weekend / What's included) banded by category: Range & Gear, Training, Bundles, Private Events |
 | `first-time.html` | First Time? Start Here — beginner funnel, what to expect/wear, entry points, FAQ (with FAQ schema) |
 | `lessons.html` | Lessons & Training — classes, private, JOAD, leagues |
 | `groups.html` | Groups & Events — birthdays, corporate/team-building, date nights, private group spec |
@@ -47,7 +47,7 @@ Then open **http://localhost:8000**.
    `data-weekday` / `data-weekend`). **Hours follow the report's §5 schedule: Wed–Fri 1:00–8:00 PM, Sat & Sun
    10:00 AM–8:00 PM, closed Mon & Tue** (41 hrs/week). These are set in every footer, the `location.html`
    hours table, and the `schema.org` opening-hours markup in `index.html` + `location.html`. The weekday
-   pricing band is **Wed–Fri** and Midweek Happy Hour is **Wed–Fri before 5 pm**.
+   pricing band is **Wed–Fri** and Midweek Hunter Hours is **Wed–Fri before 5 pm**.
 
 3. **Domain & social handles.** The canonical/OG URLs use `https://www.pacificaarchery.com/`. Point the
    site there and confirm the TikTok/Instagram profile links in `assets/js/main.js` (`actions.tt` / `actions.ig`)

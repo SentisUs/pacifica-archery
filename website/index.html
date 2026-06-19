@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
+<script src="assets/js/gate.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Pacifica Archery — Bay Area's Premier Archery Range | Daly City</title>
 <meta name="description" content="Indoor archery lanes, expert coaching & all gear included — all ages, all levels, all year. The Bay Area's premier archery range. FREE parking off I-280, minutes from SF. Book your lane, lesson, or date night today.">
@@ -187,74 +188,105 @@
   </div>
 </section>
 
-<!-- ===== PACKAGES PREVIEW (dynamic pricing) ===== -->
+<!-- ===== PACKAGES PREVIEW (Aim Your Budget) ===== -->
 <section class="section" id="packages">
   <div class="wrap">
     <div class="center">
-      <span class="eyebrow" style="justify-content:center">Pick your lane</span>
-      <h2 class="h-lg mt-s">Pricing that rewards midweek</h2>
-      <p class="lead center mt-s" style="margin-inline:auto">Same great range, smarter price. Shoot <b>Wednesday–Friday</b> and save — <b>Saturday &amp; Sunday</b> are our prime weekend rate. Switch the toggle to compare.</p>
+      <span class="eyebrow" style="justify-content:center">Give it your best shot</span>
+      <h2 class="h-lg mt-s">Aim Your Budget</h2>
       <div class="mt-m">
         <div class="toggle-wrap" role="tablist" aria-label="Choose pricing day">
-          <button class="toggle-btn" data-band="weekday" data-band-btn role="tab">Weekday <span class="small">save up to 30%</span></button>
+          <button class="toggle-btn" data-band="weekday" data-band-btn role="tab">Weekday <span class="small">Wed–Fri deals</span></button>
           <button class="toggle-btn" data-band="weekend" data-band-btn role="tab">Weekend <span class="small">Sat–Sun</span></button>
         </div>
       </div>
     </div>
 
-    <div class="price-tiers mt-l">
-      <!-- Solo Beginner -->
+    <!-- WEEKDAY offers -->
+    <div class="price-tiers mt-l" data-tier-group="weekday">
       <div class="tier reveal">
-        <h3>Solo Beginner</h3>
-        <p class="tier__tag">Your first time, on your own — everything included.</p>
-        <div class="price"><span data-weekday="$60" data-weekend="$79">$60</span><span class="per">1 archer · 1 hr</span></div>
+        <h3>☀️ Hunter Hours</h3>
+        <p class="tier__tag">Wed–Fri before 5pm — the deadest hours, the best deal in the Bay.</p>
+        <div class="price"><span>$15</span><span class="per">Lane / hr</span></div>
         <ul>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6 9 17l-5-5"/></svg> Lane time included</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6 9 17l-5-5"/></svg> Equipment &amp; target included</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6 9 17l-5-5"/></svg> Full 30-min Beginners Training</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6 9 17l-5-5"/></svg> Youth (8–17) from <b data-weekday="$35" data-weekend="$40">$35</b></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6 9 17l-5-5"/></svg> Lane time just $15/hr</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6 9 17l-5-5"/></svg> Equipment + target add-on $10/hr</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6 9 17l-5-5"/></svg> About <b>$25</b> for a lane, full gear &amp; a target</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6 9 17l-5-5"/></svg> Perfect for students &amp; flexible schedules</li>
         </ul>
-        <a class="btn btn--ghost" style="color:var(--ink);border-color:var(--ink)" href="book.html">Book solo</a>
+        <a class="btn btn--ghost" style="color:var(--ink);border-color:var(--ink)" href="book.html">Grab a Hunter Hours lane</a>
       </div>
-      <!-- 2 Archers Bundle (featured) -->
       <div class="tier tier--featured reveal">
         <span class="tier__flag">★ Most Popular</span>
         <h3>2 Archers Bundle</h3>
         <p class="tier__tag">Bring a partner or a friend — everything's included.</p>
         <div class="price"><span class="was">$95</span></div>
-        <div class="price" style="margin-top:0"><span data-weekday="$75" data-weekend="$85">$75</span><span class="per">2 archers · 1 hr</span></div>
+        <div class="price" style="margin-top:0"><span>$75</span><span class="per">2 archers · 1 hr</span></div>
         <ul>
           <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6 9 17l-5-5"/></svg> Two lanes for an hour</li>
           <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6 9 17l-5-5"/></svg> All equipment &amp; targets included</li>
           <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6 9 17l-5-5"/></svg> Basic safety instruction included</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6 9 17l-5-5"/></svg> Add full coaching: <b data-weekday="$115" data-weekend="$130">$115</b></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6 9 17l-5-5"/></svg> Save $20 midweek</li>
         </ul>
         <a class="btn btn--primary" href="book.html">Book for two</a>
       </div>
-      <!-- Group / lane -->
       <div class="tier reveal">
-        <h3>Range &amp; Groups</h3>
-        <p class="tier__tag">Got your own gear, or a crew? We've got the lanes.</p>
-        <div class="price"><span data-weekday="$20" data-weekend="$25">$20</span><span class="per">Lane / hr · own gear</span></div>
+        <h3>Solo Beginner</h3>
+        <p class="tier__tag">Your first time, on your own. Everything you need in one hour.</p>
+        <div class="price"><span>$60</span><span class="per">1 archer · 1 hr</span></div>
         <ul>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6 9 17l-5-5"/></svg> Lane time, your own gear</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6 9 17l-5-5"/></svg> Equipment + target add-on from <b data-weekday="$15" data-weekend="$20">$15</b>/hr</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6 9 17l-5-5"/></svg> Advanced Training (up to 2) from <b data-weekday="$99" data-weekend="$125">$99</b></li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6 9 17l-5-5"/></svg> Group events up to 20 — see below</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6 9 17l-5-5"/></svg> Lane time included</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6 9 17l-5-5"/></svg> Equipment &amp; target included</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6 9 17l-5-5"/></svg> Full 30-min Beginners Training</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6 9 17l-5-5"/></svg> Youth version (8–17) from $35</li>
         </ul>
-        <a class="btn btn--ghost" style="color:var(--ink);border-color:var(--ink)" href="groups.html">Group events</a>
+        <a class="btn btn--ghost" style="color:var(--ink);border-color:var(--ink)" href="book.html">Book solo</a>
       </div>
     </div>
 
-    <!-- Happy hour -->
-    <div class="happy-hour reveal mt-l">
-      <div>
-        <h3>☀️ Midweek Happy Hour</h3>
-        <p>Empty lanes, fullest discounts. Wednesday–Friday before 5pm, lanes drop to just <b>$15</b>/hr and equipment to <b>$10</b>/hr — about <b>$25</b> for a lane, full gear &amp; a target. The best-kept secret in Bay Area archery.</p>
+    <!-- WEEKEND offers -->
+    <div class="price-tiers mt-l" data-tier-group="weekend" style="display:none">
+      <div class="tier reveal">
+        <h3>Solo Archer</h3>
+        <p class="tier__tag">Just want to shoot? Lane and gear, no lesson. Walk in and let fly.</p>
+        <div class="price"><span>$45</span><span class="per">1 archer · 1 hr</span></div>
+        <ul>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6 9 17l-5-5"/></svg> One lane for an hour</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6 9 17l-5-5"/></svg> Bow, arrows, safety gear &amp; a target</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6 9 17l-5-5"/></svg> No instruction — for archers who know the ropes</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6 9 17l-5-5"/></svg> First time? Add basic safety for $5</li>
+        </ul>
+        <a class="btn btn--ghost" style="color:var(--ink);border-color:var(--ink)" href="book.html">Book a lane</a>
       </div>
-      <a class="btn btn--gold" href="pricing.html">See all pricing</a>
+      <div class="tier tier--featured reveal">
+        <span class="tier__flag">★ Most Popular</span>
+        <h3>2 Archers Bundle</h3>
+        <p class="tier__tag">Bring a partner or a friend — everything's included.</p>
+        <div class="price"><span class="was">$95</span></div>
+        <div class="price" style="margin-top:0"><span>$85</span><span class="per">2 archers · 1 hr</span></div>
+        <ul>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6 9 17l-5-5"/></svg> Two lanes for an hour</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6 9 17l-5-5"/></svg> All equipment &amp; targets included</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6 9 17l-5-5"/></svg> Basic safety instruction included</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6 9 17l-5-5"/></svg> Save $10 off the regular $95</li>
+        </ul>
+        <a class="btn btn--primary" href="book.html">Book for two</a>
+      </div>
+      <div class="tier reveal">
+        <h3>2 Archers · Full Lesson</h3>
+        <p class="tier__tag">Go deeper — a full coached class for two who want to really learn.</p>
+        <div class="price"><span class="was">$158</span></div>
+        <div class="price" style="margin-top:0"><span>$130</span><span class="per">2 archers · 1 hr</span></div>
+        <ul>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6 9 17l-5-5"/></svg> Two lanes for an hour</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6 9 17l-5-5"/></svg> All equipment &amp; targets included</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6 9 17l-5-5"/></svg> Full 30-min Beginners Training class</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6 9 17l-5-5"/></svg> Save $28 off the regular $158</li>
+        </ul>
+        <a class="btn btn--primary" href="book.html">Book the lesson</a>
+      </div>
     </div>
-    <p class="center muted small mt-m">All archers must be 8 years or older. 24-hour cancellation notice required for a full refund. <a href="pricing.html" style="color:var(--cinnabar);font-weight:600">Full price list &rarr;</a></p>
+    <p class="center muted small mt-m">Planning a party or team event? See <a href="groups.html" style="color:var(--cinnabar);font-weight:600">Groups &amp; Events</a>. Or view the <a href="pricing.html" style="color:var(--cinnabar);font-weight:600">full rate sheet</a>.</p>
   </div>
 </section>
 

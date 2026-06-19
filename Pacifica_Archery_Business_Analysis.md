@@ -112,23 +112,23 @@ This is not a cosmetic framing choice — it is the single most important decisi
 - **Loss aversion:** losses loom ~2.25× larger than equivalent gains [Kahneman/Tversky]. Framing the weekday as "save $X" is a *gain*; framing the weekend as "+$X" is a *loss* felt twice as hard for identical dollars.
 - **Dual-entitlement:** a price *increase* that exploits demand is judged unfair (82% called a snow-day shovel hike unfair), but a *discount* off a stable reference is judged fair [Kahneman, Knetsch & Thaler 1986].
 - **The Wendy's lesson:** merely *naming* "dynamic/surge pricing" triggered #BoycottWendys in 2024 even with no increase planned; they recovered only by reframing it as **discounts during slower times** [CNN]. Uber surge is resented because it's opaque and volatile [Rice/Kinder].
-- **Therefore:** customer-facing copy uses **"Weekday Savings — save up to 30%"** and named windows ("Midweek Happy Hour"), and **never** the words *surge, dynamic, premium, or peak.* The weekend price equals today's published price, so no existing customer ever pays more than they do now.
+- **Therefore:** customer-facing copy uses **"Weekday Savings — save up to 30%"** and named windows ("Midweek Hunter Hours"), and **never** the words *surge, dynamic, premium, or peak.* The weekend price equals today's published price, so no existing customer ever pays more than they do now.
 
 ### 6.3 The discount magnitude (why ~25%, and ~40% for the dead window)
 - A price change must clear the **just-noticeable-difference** (~8–12% generally, ~15–20% for considered/experiential purchases) or it's ignored [Weber's Law; JND literature]. A $2-off-$22 (9%) weekday rate would barely register.
-- Proven off-peak leisure discounts that actually shift traffic sit at **~25% (matinees) to ~25–50% (happy hour)** and *expand* total volume rather than merely shifting it — cinema demand is highly elastic (own-price elasticity ≈ −1.7 to −3.9) and "Cheap Tuesday" creates net-new trips [de Roos & McKenzie 2014; AMC matinee $10.39 vs $13.99].
+- Proven off-peak leisure discounts that actually shift traffic sit at **~25% (matinees) to ~25–50% (Hunter Hours)** and *expand* total volume rather than merely shifting it — cinema demand is highly elastic (own-price elasticity ≈ −1.7 to −3.9) and "Cheap Tuesday" creates net-new trips [de Roos & McKenzie 2014; AMC matinee $10.39 vs $13.99].
 - Comparable Bay Area / leisure differentials: weeknight bowling +12–40%, escape rooms +10–25%, climbing weekday-matinee ~14–17% off. The lone archery precedent — **Easton Salt Lake — runs a literal 2× peak ($6 off-peak vs $12 peak)**, but off a very low base.
-- **Design choice:** **~25% weekday discount** off the weekend anchor (above JND, within fairness norms, matched to proven magnitudes), and a deeper **~40% "Midweek Happy Hour"** on the genuinely dead Wed–Fri pre-5pm window, where any booking above variable cost beats an empty lane.
+- **Design choice:** **~25% weekday discount** off the weekend anchor (above JND, within fairness norms, matched to proven magnitudes), and a deeper **~40% "Midweek Hunter Hours"** on the genuinely dead Wed–Fri pre-5pm window, where any booking above variable cost beats an empty lane.
 
 ### 6.4 The price grid — separated into Components, Bundles, and Group Events
 
 The menu is now organized the way a customer actually thinks: **rent the pieces you need (range, gear, coaching), buy a ready-made bundle that combines them, or book a private group event.** This separation is itself a clarity win — it kills the old confusion of overlapping "classes" and "bundles," and it lets a returning archer pay only for a lane while a first-timer buys an all-in bundle.
 
-**Weekend = Sat & Sun. Weekday = Wed–Fri. Happy Hour = Wed–Fri before 5pm. (Shop is closed Mon & Tue per §7.)**
+**Weekend = Sat & Sun. Weekday = Wed–Fri. Hunter Hours = Wed–Fri before 5pm. (Shop is closed Mon & Tue per §7.)**
 
 **A) Components — rent à la carte**
 
-| Item | ☀️ Happy Hour (Wed–Fri <5pm) | 🟢 Weekday (Wed–Fri) | 🔵 Weekend (Sat–Sun) | Includes |
+| Item | ☀️ Hunter Hours (Wed–Fri <5pm) | 🟢 Weekday (Wed–Fri) | 🔵 Weekend (Sat–Sun) | Includes |
 |---|---|---|---|---|
 | **Lane / Range Time** (per person/hr) | **$15** | **$20** | **$25** | Choice of 15 ft or 25 ft range. Bring your own equipment. |
 | **Equipment Rental** (per person/hr) | **$10** | **$15** | **$20** | Bow, arrows, safety gear & a target. |
@@ -136,7 +136,7 @@ The menu is now organized the way a customer actually thinks: **rent the pieces 
 | **Beginners Training** (per person, 30 min) | — | **$30** | **$40** | Learning proper form from scratch. |
 | **Advanced Training** (up to **2 students**, 1 hr) | — | **$99** | **$125** | Level 2 instructor; refine technique & compete. Archers bring own equipment. |
 
-*Note: weekend component rates are rounded to clean figures ($25 lane / $20 gear), slightly above the old $22/$17 sheet; weekday and Happy Hour remain clear discounts. Weekend all-in (lane + gear = $45) stays defensible against Bay Area experiential WTP, while the weekday all-in ($35) is the value play. Bundle weekend prices below still equal the published sheet.*
+*Note: weekend component rates are rounded to clean figures ($25 lane / $20 gear), slightly above the old $22/$17 sheet; weekday and Hunter Hours remain clear discounts. Weekend all-in (lane + gear = $45) stays defensible against Bay Area experiential WTP, while the weekday all-in ($35) is the value play. Bundle weekend prices below still equal the published sheet.*
 
 **B) Bundles — lane + equipment + training, all included**
 
@@ -170,7 +170,7 @@ Suppose today's flat $22 lane yields these rough utilizations and the new struct
 
 | Band | Lane-hrs/wk (avail.) | *Illustrative* utilization → | Lane price (flat → tiered) | Lane revenue/wk |
 |---|---|---|---|---|
-| Happy Hour (Wed–Fri <5pm) | ~180 | 15% → **35%** | $22 → **$15** | $594 → **$945** |
+| Hunter Hours (Wed–Fri <5pm) | ~180 | 15% → **35%** | $22 → **$15** | $594 → **$945** |
 | Weekday eve (Wed–Fri 5–8) | ~135 | 35% → **45%** | $22 → **$20** | $1,040 → **$1,215** |
 | Weekend (Sat & Sun 10–8) | ~300 | 70% → **80%** | $22 → **$25** | $4,620 → **$6,000** |
 | **Total lane rev/wk** | 615 | | | **$6,254 → $8,160 (+30.5%)** |
@@ -248,7 +248,7 @@ A brand-new, mobile-first, statically-rendered (fully crawlable/indexable) site 
 **Pages:** Home · Pricing & Packages · First Time? Start Here · Lessons & Training · Groups & Events · Location & Parking · About · Book Now.
 
 **What it does for the business:**
-- **Dynamic weekday/weekend pricing toggle** on Home and Pricing (auto-selects the correct band by the visitor's day), plus a full crawlable rate table with both columns and the Midweek Happy Hour + Frequent Archer Card.
+- **Dynamic weekday/weekend pricing toggle** on Home and Pricing (auto-selects the correct band by the visitor's day), plus a full crawlable rate table with both columns and the Midweek Hunter Hours + Frequent Archer Card.
 - **"Book Now" in one tap from every page** — sticky desktop header + sticky mobile bottom bar — routing to the **existing booking + liability-waiver system** via a single clearly-marked placeholder URL in `book.html` (swap `https://www.pacificaarchery.com/book-online` for the live link).
 - **Location page** built to convert: Google Maps embed, "Get Directions," giant **FREE PARKING** badge, freeway directions from N and S, click-to-call, click-to-email, and an hours module **with the new Sunday row already in** (today's hours auto-highlight).
 - **Social sharing everywhere:** TikTok, Instagram, X/Twitter, Facebook, WhatsApp, and SMS/text, with native-share + copy-link fallback for TikTok/IG (which have no web share intent).
